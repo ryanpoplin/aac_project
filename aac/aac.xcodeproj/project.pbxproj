@@ -397,6 +397,7 @@
 				5A896ED71995C7AC00181F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A896ED81995C7AC00181F03 /* Build configuration list for PBXNativeTarget "aacTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +406,7 @@
 				5A896EDA1995C7AC00181F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
