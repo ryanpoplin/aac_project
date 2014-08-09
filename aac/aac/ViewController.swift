@@ -47,6 +47,9 @@ class ViewController: UIViewController {
         var resultDivide = firstValue / secondValue
         println(resultDivide)
         
+        var resultModulo = firstValue % secondValue
+        println(resultModulo)
+        
         // a string...
         var testString = "Da fuck be up?"
         
