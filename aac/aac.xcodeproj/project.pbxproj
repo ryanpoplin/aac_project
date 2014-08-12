@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		5A896EBF1995C7AC00181F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A896EBE1995C7AC00181F03 /* AppDelegate.swift */; };
 		5A896EC11995C7AC00181F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A896EC01995C7AC00181F03 /* ViewController.swift */; };
-		5A896EC41995C7AC00181F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A896EC21995C7AC00181F03 /* Main.storyboard */; };
 		5A896EC61995C7AC00181F03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A896EC51995C7AC00181F03 /* Images.xcassets */; };
 		5A896ED21995C7AC00181F03 /* aacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A896ED11995C7AC00181F03 /* aacTests.swift */; };
+		5AFA33E819995B6600C78F92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A295E5B199955300048C253 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,11 +25,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A295E5B199955300048C253 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5A896EB91995C7AC00181F03 /* aac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A896EBD1995C7AC00181F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A896EBE1995C7AC00181F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A896EC01995C7AC00181F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A896EC31995C7AC00181F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A896EC51995C7AC00181F03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A896ECB1995C7AC00181F03 /* aacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A896ED01995C7AC00181F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFA33E819995B6600C78F92 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +58,7 @@
 		5A896EB01995C7AC00181F03 = {
 			isa = PBXGroup;
 			children = (
+				5A295E5B199955300048C253 /* QuartzCore.framework */,
 				5A896EBB1995C7AC00181F03 /* aac */,
 				5A896ECE1995C7AC00181F03 /* aacTests */,
 				5A896EBA1995C7AC00181F03 /* Products */,
@@ -77,7 +79,6 @@
 			children = (
 				5A896EBE1995C7AC00181F03 /* AppDelegate.swift */,
 				5A896EC01995C7AC00181F03 /* ViewController.swift */,
-				5A896EC21995C7AC00181F03 /* Main.storyboard */,
 				5A896EC51995C7AC00181F03 /* Images.xcassets */,
 				5A896EBC1995C7AC00181F03 /* Supporting Files */,
 			);
@@ -189,7 +190,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A896EC41995C7AC00181F03 /* Main.storyboard in Resources */,
 				5A896EC61995C7AC00181F03 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,17 +230,6 @@
 			targetProxy = 5A896ECC1995C7AC00181F03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5A896EC21995C7AC00181F03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A896EC31995C7AC00181F03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A896ED31995C7AC00181F03 /* Debug */ = {
@@ -328,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = aac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -339,6 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = aac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
