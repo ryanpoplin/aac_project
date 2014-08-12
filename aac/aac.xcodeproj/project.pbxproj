@@ -12,6 +12,7 @@
 		5A896EC61995C7AC00181F03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A896EC51995C7AC00181F03 /* Images.xcassets */; };
 		5A896ED21995C7AC00181F03 /* aacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A896ED11995C7AC00181F03 /* aacTests.swift */; };
 		5AFA33E819995B6600C78F92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A295E5B199955300048C253 /* QuartzCore.framework */; };
+		5AFA33EA1999C07300C78F92 /* swift_book_testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA33E91999C07300C78F92 /* swift_book_testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		5A896ECB1995C7AC00181F03 /* aacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A896ED01995C7AC00181F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A896ED11995C7AC00181F03 /* aacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aacTests.swift; sourceTree = "<group>"; };
+		5AFA33E91999C07300C78F92 /* swift_book_testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_book_testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5A896EBE1995C7AC00181F03 /* AppDelegate.swift */,
 				5A896EC01995C7AC00181F03 /* ViewController.swift */,
+				5AFA33E91999C07300C78F92 /* swift_book_testing.swift */,
 				5A896EC51995C7AC00181F03 /* Images.xcassets */,
 				5A896EBC1995C7AC00181F03 /* Supporting Files */,
 			);
@@ -210,6 +213,7 @@
 			files = (
 				5A896EC11995C7AC00181F03 /* ViewController.swift in Sources */,
 				5A896EBF1995C7AC00181F03 /* AppDelegate.swift in Sources */,
+				5AFA33EA1999C07300C78F92 /* swift_book_testing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = aac/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -329,7 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = aac/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
